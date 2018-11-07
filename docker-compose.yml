@@ -12,4 +12,6 @@ services:
       - POSTGRES_USER=vagrant
       - POSTGRES_PASSWORD=
       - POSTGRES_PORT=5432
+    volumes:
+      - ./newsdata.sql:/docker-entrypoint-initdb.d/init.sql
 
