@@ -11,7 +11,7 @@ But if you have only the `docker-compose.yml`, you should run these 3 following 
 
 2 - Run `docker-compose up`
 
-3 - In another terminal window, run `docker exec -i udacity-log-analysis psql -U vagrant -d news < newsdata.sql`
+3 - In another terminal window (but inside the project directory), run `docker exec -i udacity-log-analysis psql -U vagrant -d news < newsdata.sql`
 
 
 ## To STOP:
