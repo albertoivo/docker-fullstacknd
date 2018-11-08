@@ -13,4 +13,3 @@ services:
       - POSTGRES_PORT=5432
     volumes:
       - ./newsdata.sql.gz:/docker-entrypoint-initdb.d/init.sql.gz
-

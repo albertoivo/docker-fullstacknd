@@ -18,4 +18,4 @@ But if you have only the `docker-compose.yml`, you should run these 3 following 
 
 To stop the docker it's important to run `docker-compose down` so it will drop the database and create a new one next time you run. It's important so we know the database is new for every review.
 
-Never stop the container with `ctrl + c`. Only with `docker-compose down`.
+**Never** stop the container with `ctrl + c`. Only with `docker-compose down`.
