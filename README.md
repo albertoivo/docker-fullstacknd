@@ -1,21 +1,23 @@
 # log-analysis-docker-fullstacknd
 
+## Prerequisites
+
+`docker` and `docker-compose`
 
 ## To RUN:
 
-If you downloaded `docker-compose.yml` and `newsdata.sql.gz`. You only need to run `docker-compose up`
+1. Clone this repo: `git https://github.com/albertoivo/log-analysis-docker-fullstacknd.git`
 
-But if you have only the `docker-compose.yml`, you should run these 3 following steps:
+2. Enter the directory: `cd log-analysis-docker-fullstacknd`
 
-1 - Download `newsdata.zip` [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and extract in the same directory.
+3. Run `docker-compose up`
 
-2 - Run `docker-compose up`
-
-3 - In another terminal window (but inside the project directory), run `docker exec -i udacity-log-analysis psql -U vagrant -d news < newsdata.sql`
-
+That's it! You already have container with a postgreSQL with user=vangrant, and a database=news populated with thousands of registers.
 
 ## To STOP:
 
-To stop the docker it's important to run `docker-compose down` so it will drop the database and create a new one next time you run. It's important so we know the database is new for every review.
+`docker-compose down`
+
+To stop the docker it's important to run `docker-compose down` so it will drop the database and create a new one next time you run. It's important so we know the database is always new for every review.
 
 **Never** stop the container with `ctrl + c`. Only with `docker-compose down`.
