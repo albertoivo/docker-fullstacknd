@@ -12,7 +12,7 @@
 
 3. Run `docker-compose up`
 
-That's it! You already have container with a postgreSQL with user=vangrant, and a database=news populated with thousands of registers.
+It ay take a while the first time because it will download an PostgreSQL image. But that's all! You will have a postgreSQL container with user=vagrant and a database=news populated with thousands of registers.
 
 ## To STOP:
 
