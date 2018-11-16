@@ -16,7 +16,7 @@ It may take a while the first time because it will download an PostgreSQL image.
 ## To STOP:
 
 1. `ctrol + z` - Puts the process in backgroung (you can skip this step if you open another terminal window).
-2. `docker-compose down` - Stops and removes the container, volumes, and images created by `up`.
+2. `docker-compose down` - Stops the container and image and removes the volumes created by `up`.
 
 To stop the docker it's important to run `docker-compose down` so it will drop the database and create a new one next time you run. It's important so we know the database is always new for every review.
 
