@@ -1,5 +1,3 @@
-# log-analysis-docker-fullstacknd
-
 ## Prerequisites
 
 `docker` and `docker-compose`
