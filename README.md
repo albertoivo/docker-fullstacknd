@@ -5,7 +5,7 @@
 
 ## To RUN:
 
-1. Clone this repo: `git https://github.com/albertoivo/log-analysis-docker-fullstacknd.git`
+1. Clone this repo: `git clone https://github.com/albertoivo/log-analysis-docker-fullstacknd.git`
 
 2. Enter the directory: `cd log-analysis-docker-fullstacknd`
 
