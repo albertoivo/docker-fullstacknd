@@ -1,6 +1,7 @@
 ## Prerequisites
 
-`docker` and `docker-compose`
+1. `docker`
+2. `docker-compose`
 
 ## To RUN:
 
