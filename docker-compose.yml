@@ -1,8 +1,8 @@
-version: '3' 
+version: '3'
 services:
   postgres:
-    image: postgres:9.6
-    container_name: udacity-log-analysis
+    image: postgres:alpine
+    container_name: udacity-postgres
     ports:
       - "5432:5432"
     environment:
