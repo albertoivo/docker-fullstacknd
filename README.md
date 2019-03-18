@@ -1,3 +1,5 @@
+# Log Analysis
+
 ## Prerequisites
 
 1. `docker`
@@ -11,7 +13,12 @@
 
 3. Run `docker-compose up`
 
-It may take a while the first time because it will download an PostgreSQL image. But that's all! You will have a postgreSQL container with `user=vagrant` and a `database=news` populated with thousands of registers.
+It may take a while the first time because it will download an PostgreSQL image. But that's all! You will have a postgreSQL container populated with thousands of registers.
+
+You should connect like the example below:
+```python
+psycopg2.connect(database='news', user='vagrant', password='', host='localhost')
+```
 
 ## To STOP:
 
