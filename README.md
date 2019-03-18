@@ -22,8 +22,8 @@ psycopg2.connect(database='news', user='vagrant', password='', host='localhost')
 
 ## To STOP:
 
-1. `ctrl + z` - Puts the process in backgroung (you can skip this step if you open another terminal window).
-2. `docker-compose down` - Stops the container and image and removes the volumes created by `up`.
+1. `ctrl + z` - Puts the process in background (you can skip this step if you open another terminal window).
+2. `docker-compose down` - Stops the container and image and removes the volumes created by `docker-compose up`.
 
 To stop the docker it's important to run `docker-compose down` so it will drop the database and create a new one next time you run. It's important so we know the database is always new for every review.
 
