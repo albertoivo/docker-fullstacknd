@@ -17,7 +17,7 @@ It may take a while the first time because it will download an PostgreSQL image.
 
 You should connect like the example below:
 ```python
-psycopg2.connect(database='news', user='vagrant', password='', host='localhost')
+psycopg2.connect(dbname='news', user='vagrant', host='localhost')
 ```
 
 ## To STOP:
