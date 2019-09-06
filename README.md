@@ -9,7 +9,7 @@
 
 1. Clone this repo: `git clone https://github.com/albertoivo/docker-fullstacknd.git`
 
-2. Enter the directory: `cd log-analysis-docker-fullstacknd`
+2. Enter the directory: `cd docker-fullstacknd`
 
 3. Run `docker-compose up`
 
